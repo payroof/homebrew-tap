@@ -104,10 +104,10 @@ def cask(version, digests):
 
   app "PayroofWallet.app"
 
-  # Ad-hoc signed, not notarized: clear the download quarantine so macOS opens it.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{{appdir}}/PayroofWallet.app"]
-  end
+  caveats <<~EOS
+    Payroof Wallet is not notarized yet. On first launch, allow it in
+    System Settings → Privacy & Security → Open Anyway.
+  EOS
 end
 '''
 
