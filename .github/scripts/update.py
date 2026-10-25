@@ -30,7 +30,7 @@ FORMULAE = {
         "test": 'assert_match version.to_s, shell_output("#{bin}/roofer --version")',
     },
 }
-CASK_ASSET = "PayroofWallet-macos-arm64.zip"
+CASK_ASSET = "PayroofWallet-macos.zip"
 
 
 def latest(repo):
@@ -99,7 +99,6 @@ def cask(version, digests):
   desc "Self-custody crypto wallet for Payroof payments"
   homepage "https://github.com/payroof/wallet"
 
-  depends_on arch: :arm64
   depends_on macos: :sequoia
 
   app "PayroofWallet.app"

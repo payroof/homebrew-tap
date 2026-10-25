@@ -6,7 +6,7 @@ Install the Payroof tools with [Homebrew](https://brew.sh) on macOS or Linux.
 brew install payroof/tap/payroof   # payment server
 brew install payroof/tap/stor      # storefront server (the `stortop` command)
 brew install payroof/tap/roofer    # local stack and end-to-end tests
-brew install --cask payroof/tap/wallet   # Payroof Wallet for macOS (Apple Silicon)
+brew install --cask payroof/tap/wallet   # Payroof Wallet for macOS
 ```
 
 Update with `brew upgrade`.
