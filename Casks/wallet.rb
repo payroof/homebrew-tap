@@ -1,13 +1,12 @@
 cask "wallet" do
-  version "0.1.0"
-  sha256 "23c21c9f8ef20d43685f92a0761a2ae19ecae291d82c8eb2ec11209835a38d4f"
+  version "0.1.1"
+  sha256 "42da61e2dae8194b0d996024b4fd1562cea6b7c778185b0c949e2d7b3fe7c10a"
 
-  url "https://github.com/payroof/wallet/releases/download/v#{version}/PayroofWallet-macos-arm64.zip"
+  url "https://github.com/payroof/wallet/releases/download/v#{version}/PayroofWallet-macos.zip"
   name "Payroof Wallet"
   desc "Self-custody crypto wallet for Payroof payments"
   homepage "https://github.com/payroof/wallet"
 
-  depends_on arch: :arm64
   depends_on macos: :sequoia
 
   app "PayroofWallet.app"
