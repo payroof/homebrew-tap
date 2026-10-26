@@ -1,28 +1,28 @@
 class Payroof < Formula
   desc "Watch-only crypto payment references, scanning and signed webhooks"
   homepage "https://github.com/payroof/payroof"
-  version "0.1.0"
+  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/payroof/payroof/releases/download/v0.1.0/payroof-aarch64-apple-darwin.tar.gz"
-      sha256 "1a79238bc8b93a99d6666e146aa1fd60504a0dbaa2d9bccaa138e4ab5ed6cbb9"
+      url "https://github.com/payroof/payroof/releases/download/v0.3.0/payroof-aarch64-apple-darwin.tar.gz"
+      sha256 "78c23eec492bfe3a5e065ffbb99066d54920b6afb142f00dc9f965964ac60a05"
     end
     on_intel do
-      url "https://github.com/payroof/payroof/releases/download/v0.1.0/payroof-x86_64-apple-darwin.tar.gz"
-      sha256 "952ad91f1c3c30e6bd41964044f2bc7841bcfb328cda430b2bed58f796ed56cf"
+      url "https://github.com/payroof/payroof/releases/download/v0.3.0/payroof-x86_64-apple-darwin.tar.gz"
+      sha256 "43363d2fbd6471f67de864b97baa53e142f38696960b9f3e982e7c3127e1c2ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/payroof/payroof/releases/download/v0.1.0/payroof-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2cfa9887f050562ec98b524ad83bcabc8f70e2bf7cd28a19a944cabec73d3f6e"
+      url "https://github.com/payroof/payroof/releases/download/v0.3.0/payroof-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c72c259ec23895d256ecdab34852cb443991096be9788b206090ff17ef58bf8e"
     end
     on_intel do
-      url "https://github.com/payroof/payroof/releases/download/v0.1.0/payroof-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7ae3bec778632dfe6593cd3cfb1a0d6cf7f9b09dce1aaf7cd1d904f870c7948d"
+      url "https://github.com/payroof/payroof/releases/download/v0.3.0/payroof-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "27c7f5f4ae7abfcbd42587f96859792e080c3c2df04c210a77b5c2c00a67c0b7"
     end
   end
 
