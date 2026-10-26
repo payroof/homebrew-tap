@@ -30,7 +30,7 @@ FORMULAE = {
         "test": 'assert_match version.to_s, shell_output("#{bin}/roofer --version")',
     },
 }
-CASK_ASSET = "PayroofWallet-macos.zip"
+CASK_ASSET = "Payroof.dmg"
 
 
 def latest(repo):
@@ -101,7 +101,7 @@ def cask(version, digests):
 
   depends_on macos: :sequoia
 
-  app "PayroofWallet.app"
+  app "Payroof.app"
 
   caveats <<~EOS
     Payroof Wallet is not notarized yet. On first launch, allow it in
