@@ -1,6 +1,6 @@
 cask "wallet" do
-  version "0.2.0"
-  sha256 "d8b79297d0af66fb1ac3488f54b46158298ce11597da5281e1a39f5711e56a9d"
+  version "0.3.0"
+  sha256 "ec66211c0fef243141785902cf194d933b16bb711492efb9aa5581113027e42b"
 
   url "https://github.com/payroof/wallet/releases/download/v#{version}/Payroof.dmg"
   name "Payroof Wallet"
